@@ -1,0 +1,75 @@
+body {
+  font-family: "Kalam", cursive;
+  min-height: 100vh;
+  overflow: hidden;
+  background: rgb(247, 218, 217);
+  background: radial-gradient(
+    circle,
+    rgba(247, 218, 217, 1) 5%,
+    rgba(247, 218, 217, 1) 15%,
+    rgba(249, 224, 220, 1) 25%,
+    rgba(253, 238, 229, 1) 35%,
+    rgba(235, 228, 215, 1) 45%,
+    rgba(235, 228, 215, 1) 55%,
+    rgba(84, 78, 73, 1) 65%,
+    rgba(150, 140, 131, 1) 75%,
+    rgba(150, 140, 131, 1) 85%,
+    rgba(150, 140, 131, 1) 95%
+  );
+}
+
+#profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+.links-container {
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  border: black 1px solid;
+  padding: 10px;
+  background-color: #968c8390;
+  box-shadow: rgba(0, 0, 0, 0.13) 0px 5px 15px;
+  border-radius: 999999px;
+  min-height: 40px;
+  transform: scale(1);
+  transition: transform 0.1s ease-in;
+}
+
+svg {
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.links span {
+  margin-right: auto;
+}
+
+.links:hover {
+  transform: scale(1.05);
+}
